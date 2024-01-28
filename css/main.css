@@ -1,0 +1,1782 @@
+img {
+  width: 100%;
+  display: block;
+}
+body {
+  font-family: "Jost", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+header .navbar {
+  padding: 25px 0;
+}
+header .navbar .navbar-nav .nav-item {
+  margin-right: 28px;
+}
+header .navbar .navbar-nav .nav-item a {
+  font-size: 17px;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+header .navbar .navbar-nav .nav-item a:hover {
+  color: #dc3545;
+}
+header .navbar .collapse .social .navbar-nav .nav-item span a {
+  font-size: 25px;
+  color: black;
+}
+.home2 .text1 {
+  color: #fff;
+  background-color: black;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 1px;
+  text-transform: capitalize;
+}
+.home2 .text1 p {
+  font-size: 17px;
+}
+.home2 .text1 a {
+  color: #cebd9c;
+  border-bottom: 2px solid #cebd9c;
+  transition: all 0.5s;
+  font-weight: 500;
+}
+.home2 .text1 a:hover {
+  letter-spacing: 1px;
+}
+.home {
+  height: 100vh;
+  background-image: url(../img/h1_hero1.jpg);
+  background-position: top;
+  background-size: cover;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.home .hometext {
+  text-align: center;
+  text-transform: capitalize;
+}
+.home .hometext .past p {
+  color: #dc3545;
+  font-size: 50px;
+  font-family: "Clicker Script", cursive;
+}
+.home .hometext h1 {
+  font-size: 50px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+.home .hometext p {
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #74706b;
+  line-height: 1.8;
+}
+.home .hometext .btn {
+  padding: 15px 45px;
+  border: 1px solid black;
+  border-radius: 0;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 10px;
+  transition: all 0.5s;
+}
+.home .hometext .btn:hover {
+  background-color: transparent;
+  color: black;
+}
+.cards {
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+.card2 {
+  position: relative;
+  border-radius: 0;
+  border: none;
+  overflow: hidden;
+}
+.card2 .card-img {
+  border: none;
+  border-radius: 0;
+  transition: all 0.5s;
+}
+.cards .card2 h5 {
+  position: absolute;
+  text-align: center;
+  bottom: 9%;
+  left: 30%;
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  padding-bottom: 40px;
+}
+.cards .card2:hover .card-img {
+  transform: scale(1.1);
+  position: relative;
+}
+.cards .card2 .overlay a {
+  color: white;
+  position: absolute;
+  bottom: 0%;
+  left: 40%;
+  padding-bottom: 0px;
+  margin-bottom: 30px;
+  opacity: 0;
+  transition: all 0.5s;
+  text-transform: capitalize;
+  font-size: 18px;
+  border-bottom: 3px solid #cebd9c;
+  color: #cebd9c;
+  font-weight: 500;
+}
+.cards .card2 .overlay {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  position: absolute;
+  text-align: center;
+  inset: 0;
+  transform: translateY(20px);
+  z-index: 2;
+  transition: all 0.5s;
+  opacity: 1;
+}
+.cards .card2 .overlay:hover {
+  transform: translateY(0);
+}
+.cards .card2 .overlay:hover a {
+  opacity: 1;
+}
+.cards .card2:after {
+  content: "";
+  width: 100%;
+  height: 20%;
+  bottom: 50%;
+  box-shadow: 0px 160px 70px rgba(0, 0, 0, 0.57);
+  position: absolute;
+  opacity: 1;
+}
+.cards .card2 .overlay a:hover {
+  letter-spacing: 1px;
+}
+.items {
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+.items .itemstext {
+  border-bottom: 1px solid #74706b3d;
+  padding: 20px 0;
+  margin-bottom: 50px;
+}
+.items .itemstext .nav a {
+  color: black;
+  font-size: 18px;
+  text-transform: capitalize;
+  background-color: transparent;
+  padding-bottom: 30px;
+  margin-right: 10px;
+  font-weight: 500;
+}
+.items .itemstext .nav a:hover {
+  color: #dc3545;
+}
+.card {
+  text-align: center;
+  border: none;
+  margin-bottom: 20px;
+}
+.card .card-img-top {
+  border: none;
+  border-radius: 0;
+}
+.card .card-text {
+  font-size: 14px;
+}
+.card .card-body span {
+  margin: 0 15px;
+}
+.card .card-body .card-p {
+  display: inline-block;
+  margin: 0 10px;
+  transition: all 0.5s;
+}
+.card .card-body .card-p p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #74706b;
+}
+.card .card-body .cardf p {
+  color: #cebd9c;
+}
+.card .card-body h5 {
+  font-size: 18px;
+  font-weight: 400;
+  transition: all 0.5s;
+}
+.card:hover h5 {
+  color: #dc3545;
+}
+.card .cardimg {
+  position: relative;
+  transition: all 0.5s;
+  overflow: hidden;
+}
+.card .cardimg img {
+  transition: all 0.5s;
+}
+.card .cardimg .lay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+  text-align: center;
+  opacity: 0;
+  transition: all 0.5s;
+  z-index: 1;
+}
+.card:hover img {
+  transform: scale(1.1);
+}
+.card:hover .lay {
+  opacity: 1;
+}
+.icon {
+  position: absolute;
+  bottom: 8%;
+  right: 20%;
+}
+.card .lay a {
+  padding: 10px 20px;
+  font-size: 22px;
+  background-color: white;
+  margin: -3px;
+  transition: all 0.5s;
+  color: black;
+}
+.card .lay a:hover {
+  background-color: #dc3545;
+  color: white;
+}
+.cost {
+  background-color: #f3ead8;
+  padding-bottom: 40px;
+}
+.cost .costtext p {
+  font-size: 23px;
+  padding: 0px 50px;
+  line-height: 1.7;
+}
+.cost .costtext h2 {
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+.cost .costtext2 {
+  text-align: end;
+}
+.cost .costtext {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  padding-top: 70px;
+}
+.cost .costtext2 .text3 {
+  text-align: start;
+  padding-top: 20px;
+}
+.cost .costtext2 .text3 h3 {
+  font-size: 18px;
+}
+.cost .costtext2 .text3 p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #74706b;
+}
+.items3 {
+  margin-top: 70px;
+}
+.itemtext {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-transform: capitalize;
+}
+.itemtext h3 {
+  font-size: 35px;
+}
+.new {
+  margin-top: 60px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+.new {
+  margin-top: 60px;
+  background-color: #f6f6f6;
+}
+.new .cardcol {
+  text-transform: capitalize;
+  padding-bottom: 30px;
+}
+.new .card-body2 p {
+  padding-top: 25px;
+  font-size: 16px;
+  color: #74706b;
+}
+.new .card-body2 h5 {
+  font-size: 23px;
+  font-weight: 500;
+  transition: all 0.5s;
+}
+.new .card-body2 .some p {
+  padding-bottom: 20px;
+}
+.new .card-body2 a {
+  color: black;
+  border-bottom: 2px solid black;
+  transition: all 0.5s;
+  font-weight: 500;
+}
+.new .cardcol:hover h5 {
+  color: #dc3545;
+}
+.new a:hover {
+  letter-spacing: 1px;
+}
+.fast {
+  margin-top: 50px;
+  padding: 40px 0;
+  margin-bottom: 40px;
+}
+.fast .fastcard {
+  text-align: center;
+}
+.fast .fastimg {
+  margin: auto;
+  width: 15%;
+  padding-bottom: 20px;
+}
+.fast .fastcard .fasttext {
+  margin-top: 10px;
+}
+.fast .fastcard .fasttext h4 {
+  font-size: 19px;
+}
+.fast .fastcard .fasttext p {
+  color: #74706b;
+}
+footer {
+  background-color: #171613;
+  color: white;
+  padding-top: 60px;
+}
+footer .get {
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+footer .get .gettext h6 {
+  font-size: 26px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+footer .enter input {
+  width: 65%;
+  padding: 15px 20px;
+}
+footer .enter input:focus {
+  outline: none;
+}
+footer .enter .sub {
+  padding: 17px 30px;
+  border: none;
+  background-color: #dc3545;
+  color: white;
+}
+footer .media {
+  text-align: center;
+}
+footer .media a {
+  font-size: 25px;
+  color: white;
+  margin: 0 20px;
+  transition: all 0.5s;
+}
+footer .media a:hover {
+  color: #dc3545;
+}
+footer .off2 {
+  border-top: 1px solid #74706b84;
+  padding-top: 70px;
+  border-bottom: 1px solid #74706b84;
+  padding-bottom: 70px;
+}
+footer .off2 .shopmen {
+  margin-left: 30px;
+}
+footer .off2 .shopmen h6 {
+  padding-top: 15px;
+  padding-left: 28px;
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+footer .off2 .shopmen ul li {
+  font-size: 17px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+footer .off2 .shopmen ul li a {
+  color: #bbb9b5;
+  transition: all 0.5s;
+}
+footer .off2 .shopmen ul li a:hover {
+  text-decoration: underline;
+  letter-spacing: 1px;
+}
+footer .copy {
+  text-align: center;
+  padding: 30px;
+  padding-bottom: 20px;
+  color: #74706b;
+}
+footer .copy span,
+a {
+  color: #dc3545;
+}
+.home3 {
+  background-color: #f3ead8;
+  text-align: center;
+  padding: 30px 0;
+}
+.home3 .home3text h1 {
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+.home3 .home3text a {
+  color: #74706b;
+  margin: 0 2px;
+  font-size: 14px;
+}
+.home3 .home3text .link {
+  border-right: 1px solid #74706b;
+  padding-right: 10px;
+}
+.cat {
+  margin-top: 70px;
+}
+.cat .catcard {
+  border: 1px solid #edeff2;
+  padding: 40px 10px;
+}
+.cat .catcard .dropdown-center {
+  margin-bottom: 30px;
+}
+.cat .catcard .dropdown-center .btn {
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px 15px;
+  border-radius: 20px 20px 20px 20px;
+  border: 1px solid #edeff2;
+  text-align: start;
+  width: 100%;
+}
+.cat .catcard .dropdown-center .dropdown-menu .dropdown-item {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.cat .catcard .filter h2 {
+  font-size: 18px;
+  padding: 10px 0;
+  margin-bottom: 40px;
+}
+.cat .catcard .filter2 h2 {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  margin-left: 17px;
+}
+.cat .catcard .filter2 .list-group .list-group-item {
+  border-radius: 0;
+  border: none;
+  margin-bottom: 10px;
+}
+.cat .catcard2 {
+  margin-bottom: 70px;
+}
+.log {
+  margin-top: 30px;
+}
+.login {
+  width: 55%;
+  margin: auto;
+  background-color: white;
+  padding: 20px 60px;
+  text-transform: capitalize;
+  box-shadow: -2px 3px 30px #74706b;
+}
+.log .logtext {
+  text-align: center;
+  padding-top: 30px;
+}
+.log .logtext h1 {
+  font-size: 38px;
+}
+.log .logtext p {
+  font-size: 15px;
+  padding-top: 15px;
+}
+.log .form-control {
+  padding: 14px 20px;
+  font-size: 15px;
+  border-radius: 0;
+}
+.log form .sign {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  padding-left: 5px;
+}
+.log form .sign .btn {
+  padding: 18px 35px;
+  background-color: #ff2020;
+  color: white;
+  margin-left: 20px;
+  border: none;
+  border-radius: 0;
+}
+.art {
+  margin-top: 60px;
+}
+.art table thead tr th {
+  padding-bottom: 40px;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #74706b;
+}
+.art table tbody tr td {
+  padding-bottom: 40px;
+  padding-top: 40px;
+  font-size: 15px;
+}
+.art table tbody tr span {
+  margin-right: 20px;
+  color: #74706b;
+}
+.art table tbody tr td .number {
+  width: 20%;
+}
+.tot {
+  padding: 10px 40px;
+  background-color: #ff2020;
+  color: white;
+  text-transform: capitalize;
+  border-radius: 35px;
+  border: none;
+  font-weight: 500;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.tot::after {
+  content: "";
+  width: 0%;
+  height: 100%;
+  background-color: #17161360;
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  z-index: -1;
+  transition: all 0.5s;
+  transform-origin: 0 0;
+}
+.tot:hover::after {
+  width: 100%;
+  opacity: 1;
+}
+.art table tbody tr td .form-check {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.art table tbody tr td .form-check .dropdown .btn {
+  background-color: #f4f4f4;
+  color: black;
+  width: 80%;
+  padding: 10px 20px;
+  text-align: start;
+  border: none;
+}
+.art table tbody tr td .form-check .take {
+  width: 80%;
+  padding: 10px 20px;
+  background-color: #f4f4f4;
+  border: none;
+}
+.art table tfoot tr td {
+  border: none;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+.pro {
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+.pro .card {
+  background-color: red;
+  padding-left: 40px;
+  padding-bottom: 40px;
+  padding-top: 30px;
+  border-radius: 0;
+}
+.pro .card-body3 {
+  padding-top: 30px;
+  text-align: start;
+  padding-left: 20px;
+  color: white;
+}
+.pro .card-body3 .card-title {
+  color: white;
+  font-size: 40px;
+  font-weight: 400;
+}
+.pro .card-body3 .card-text2 {
+  padding-top: 20px;
+  font-size: 30px;
+  font-weight: 500;
+}
+.pro .card-body3 .add {
+  margin-top: 35px;
+  margin-right: 20px;
+  padding: 15px 40px;
+  font-size: 14px;
+  border-radius: 30px;
+  border: none;
+  font-weight: 500;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+.pro .card-body3 .add::after {
+  content: "";
+  width: 0;
+  height: 100%;
+  background-color: red;
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: all 0.5s;
+  z-index: -1;
+}
+.pro .card-body3 .add:hover::after {
+  opacity: 1;
+  width: 100%;
+}
+.pro .card-body3 .add:hover {
+  color: white;
+  box-shadow: 2px 2px 30px white;
+}
+.pro .card-body3 .blu {
+  padding: 13px 20px;
+  border-radius: 50%;
+  font-size: 17px;
+  color: white;
+  border: 1px solid white;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.pro .card-body3 .blu::after {
+  content: "";
+  width: 100%;
+  height: 0;
+  background-color: white;
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: all 0.5s;
+  z-index: -1;
+}
+.pro .card-body3 .blu:hover::after {
+  opacity: 1;
+  height: 100%;
+}
+.pro .card-body3 .blu:hover {
+  color: red;
+}
+.how1 .howtext .nav-item {
+  margin-top: 70px;
+  padding-bottom: 30px;
+}
+.how1 .howtext {
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+.how1 .howtext .nav-item .nav-link {
+  color: #171613;
+  font-weight: 500;
+  font-size: 17px;
+}
+.how1 .howtext .nav-item .nav-link:focus {
+  color: red;
+}
+.how1 .howtext .tab-content .tab-pane {
+  padding-top: 40px;
+}
+.how1 .howtext .tab-content .tab-pane p {
+  padding-bottom: 20px;
+}
+.here {
+  margin-top: 50px;
+}
+.here .heretext {
+  padding-top: 10px;
+  padding-bottom: 1px;
+  padding-left: 20px;
+  background-color: #f4f4f4;
+  font-size: 14px;
+  margin-top: 30px;
+}
+.here .heretext a {
+  text-decoration: underline;
+}
+.here .heretext2 {
+  margin-top: 15px;
+  margin-left: 35px;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+.here .heretext4 {
+  margin-left: 30px;
+}
+.here .heretext4 .form-control {
+  margin-bottom: 30px;
+}
+.here .form2 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.here .form2 .ant {
+  margin-bottom: 30px;
+}
+.here .form2 .ship {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.here .order {
+  background-color: #f4f4f4;
+  padding: 0 30px;
+}
+.here .order p {
+  padding-top: 13px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #bbb9b55d;
+}
+.here .order2 {
+  border-bottom: 1px solid #bbb9b51c;
+}
+.here .order2 ul {
+  padding-top: 5px;
+  font-size: 14px;
+}
+.here .send1 {
+  background-color: white;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.here .send1 p {
+  padding: 10px;
+  border-bottom: none;
+  font-size: 14px;
+}
+.here .pay .tot {
+  width: 100%;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+/* Blog start*/
+.pact {
+  margin-top: 70px;
+}
+.pact .pactcall {
+  margin-bottom: 40px;
+}
+.pact:last-child {
+  margin-bottom: 70px;
+}
+
+.pact .pactcall h3 {
+  padding-top: 30px;
+  padding-bottom: 18px;
+  padding-left: 45px;
+  color: black;
+}
+.pact .pactcall h3 a {
+  color: black;
+}
+.pact h3:hover a {
+  color: #ff2020;
+}
+.pact p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #777;
+  padding-bottom: 25px;
+  padding-left: 45px;
+  padding-right: 45px;
+  line-height: 1.8;
+}
+.tr a {
+  padding-left: 45px;
+  margin-right: 5px;
+  text-decoration: none;
+  color: #777;
+  font-size: 13px;
+}
+a:hover {
+  color: #ff2020;
+}
+.pact .search1 input {
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px 25px;
+  border: 1px solid #77777755;
+  color: #777;
+  width: 60%;
+}
+.pact .search1 input:focus {
+  outline: none;
+}
+.pact .search1 {
+  background-color: #fbf9ff;
+  padding: 15px 25px;
+  margin-bottom: 50px;
+}
+.pact .search1 .Search {
+  padding: 10px 30px;
+  background-color: #ff2020;
+  color: white;
+  border: 1px solid #ff2020;
+}
+.det {
+  margin-top: 20px;
+  background-color: #fbf9ff;
+  padding: 20px 10px;
+}
+.det h5 {
+  padding-left: 20px;
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #7777771e;
+}
+.det ul {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 3.3;
+  margin-bottom: 46px;
+}
+.det ul li {
+  border-bottom: 1px solid #77777720;
+}
+.det ul li:last-child {
+  border: none;
+}
+.det ul li a {
+  color: #777;
+}
+.det ul li a:hover {
+  color: #ff2020;
+}
+.pact .post {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: #fbf9ff;
+  padding: 10px 20px;
+}
+.pact .post .postimg {
+  margin-bottom: 30px;
+}
+.pact .post h6 {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #7777773f;
+  font-size: 25px;
+  font-weight: 400;
+  padding-right: 80px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+.pact .post .post2 a {
+  font-size: 15px;
+  font-weight: 400;
+  padding-bottom: 5px;
+  padding-right: 30px;
+  text-transform: capitalize;
+  display: block;
+  color: black;
+  margin-left: 40px;
+}
+.pact .post .post2 a:hover {
+  color: #20c997;
+}
+.pact .post .post2 p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #777;
+}
+.pact .btr {
+  padding: 40px 20px;
+  background-color: #fbf9ff;
+  margin-bottom: 20px;
+}
+.pact .btr h6 {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #7777773f;
+  font-size: 25px;
+  font-weight: 400;
+  padding-right: 80px;
+  padding-bottom: 20px;
+}
+.pact .btr a {
+  font-size: 12px;
+  border: 1px solid #7777771d;
+  padding: 10px 20px;
+  color: #777;
+  background-color: white;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 7px;
+  transition: all 0.5s;
+}
+.pact .btr a:hover {
+  background-color: #ff2020;
+  color: white;
+}
+.pact .psot {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 5px 10px;
+  gap: 15px;
+}
+.pact .trt .post {
+  margin-top: 20px;
+}
+.pact .form {
+  display: flex;
+  flex-flow: column wrap;
+  padding: 20px;
+}
+.pact .form input {
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 15px 10px;
+  border: 1px solid #77777755;
+  color: #777;
+  background-color: #fbf9ff;
+}
+.form input:focus {
+  outline: none;
+}
+.pact .form {
+  background-color: #fbf9ff;
+  flex-direction: column;
+}
+.pact .form h6 {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #7777773f;
+  font-size: 25px;
+  font-weight: 400;
+  padding-right: 80px;
+  padding-bottom: 20px;
+  margin-left: 10px;
+}
+.pact .form .Search2 {
+  font-size: 15px;
+  padding: 20px 20px;
+  background-color: transparent;
+  color: #ff2020;
+  border: 1px solid #ff2020;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.pact .form .Search2:hover {
+  background-color: #ff2020;
+  color: white;
+}
+.pact .pactphoto {
+  position: relative;
+}
+.pact .pactbtn {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-left: 50px;
+  padding: 30px 0px;
+  margin-bottom: -20px;
+  font-size: 30px;
+  color: white;
+  background-color: #ff2020;
+  border: 1px solid #ff2020;
+  border-radius: 10px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.pact .pactbtn:hover {
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: #ff2020;
+}
+.pact .pactphoto h4 {
+  margin: 20px 0;
+  font-size: 30px;
+  font-weight: 500;
+}
+.pact .boot p {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 4px;
+}
+.pact .plac {
+  padding: 20px;
+  background-color: rgba(130, 139, 178, 0.1);
+}
+.pact .plac1 p {
+  background-color: white;
+  padding: 20px 40px;
+  margin-top: 10px;
+  line-height: 2.8;
+  font-style: italic;
+  border-left: 3px solid #777;
+}
+.pact .likerow {
+  border-top: 1px solid #77777770;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+.pact .likerow .likecol p {
+  font-size: 14px;
+  padding-left: 5px;
+}
+.pact .likerow .likecol span {
+  margin-right: 5px;
+}
+.pact .likerow .likecol1 .click a {
+  padding: 0 8px;
+}
+.pact .likerow1 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #77777765;
+}
+.pact .likerow1 .likecol3 {
+  display: flex;
+}
+.pact .likerow1 .likecol3 .photo {
+  position: relative;
+}
+.pact .likerow1 .likecol3 h6 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 40px;
+}
+.pact .likerow1 .likecol3 p {
+  font-size: 15px;
+  padding-top: 5px;
+}
+.pact .likerow1 .likecol3 .photo .overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.637);
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.pact .likerow1 .likecol3 .photo .overlay span {
+  position: relative;
+  top: 30%;
+  right: 10%;
+}
+.pact .likerow1 .likecol3 .photo .overlay span a {
+  font-size: 30px;
+}
+.pact .likerow1 .likecol3:hover .overlay {
+  opacity: 1;
+}
+.pact .likerow1 .likecol3:hover h6 {
+  color: #20c997;
+}
+.pact .have {
+  background-color: #77777710;
+  padding: 10px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.pact .outrow {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  padding: 0px 20px;
+}
+.pact .have .outrow .outtext {
+  padding-bottom: 30px;
+}
+.pact .outrow h3 {
+  font-size: 19px;
+  cursor: pointer;
+}
+.pact .outrow p {
+  padding-bottom: 5px;
+  font-size: 14px;
+}
+.pact .outrow .outimg {
+  padding-top: 50px;
+}
+.pact .have2 .have2text {
+  border-top: 1px solid #77777765;
+}
+.pact .have2 .have2text h4 {
+  font-size: 20px;
+  margin-left: 30px;
+}
+.pact .have2 {
+  background-color: white;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.pact .have2 .outtext2 {
+  margin-top: 50px;
+}
+.pact .have2 .outtext2 p {
+  font-size: 14px;
+  padding-bottom: 4px;
+  align-items: center;
+}
+.pact .have2 .outtext2 h3 {
+  font-size: 17px;
+  padding-top: 10px;
+}
+.pact .have2 .outtext2 .outimg {
+  margin-left: 5px;
+}
+.pact .have2 .outtext5 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.pact .have2 .outtext5 {
+  align-items: center;
+}
+.pact .leavetext {
+  border-top: 1px solid #77777741;
+}
+.pact .leavetext h4 {
+  font-size: 20px;
+  margin-left: 30px;
+  padding-top: 30px;
+}
+/* Blog End */
+
+/* contact start */
+.map {
+  margin-top: 80px;
+}
+.touch .tect2 form input {
+  width: 48%;
+  padding: 20px 20px;
+  margin-top: 20px;
+  border: 1px solid #7777772f;
+  margin-right: 10px;
+}
+.touch .tect2 form input:focus {
+  outline: none;
+}
+.touch .tect2 form .web input {
+  width: 97.8%;
+  margin: 20px 0;
+}
+.touch .tect2 form .com {
+  margin: 20px 0;
+  padding: 20px 50px;
+  font-size: 14px;
+  background-color: white;
+  color: #ff2020;
+  border: 1px solid #ff2020;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.touch .tect2 form .com:hover {
+  background-color: #ff2020;
+  color: white;
+}
+.touch .tect2 form textarea {
+  padding: 15px 10px;
+  border: 1px solid #77777731;
+  font-family: "Jost", sans-serif;
+}
+.touch .tect2 textarea:focus {
+  outline: none;
+}
+.touch {
+  margin-bottom: 70px;
+}
+.touch .tectext {
+  margin-top: 60px;
+  margin-bottom: 50px;
+  margin-left: 30px;
+}
+.touch .media1 {
+  padding: 10px 0;
+}
+.touch .media1 ul {
+  padding-bottom: 30px;
+}
+.touch .media1 ul span {
+  font-size: 20px;
+  margin-right: 20px;
+  color: #777;
+}
+.touch .media1 ul h6 {
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+}
+.touch .media1 ul p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #777;
+  padding-left: 40px;
+}
+.touch .media1 ul {
+  display: flex;
+  flex-flow: row wrap;
+}
+/* contact end */
+
+/* media */
+@media screen and (max-width: 1024px) {
+  header .navbar .navbar-nav .nav-item {
+    margin-right: 10px;
+  }
+  header .navbar .navbar-nav .nav-item a {
+    font-size: 15px;
+  }
+  header .navbar .collapse .social .navbar-nav .nav-item span a {
+    font-size: 20px;
+    margin: 0 5px;
+  }
+  .home {
+    height: 700px;
+  }
+  .cost .costtext2 .costimg {
+    width: 100%;
+  }
+  .cost .costtext2 .text3 {
+    padding-top: 10px;
+  }
+  footer .media {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  footer .off2 .shopmen {
+    margin-left: 0px;
+  }
+  footer .off2 .shopmen h6 {
+    font-size: 18px;
+  }
+  footer .off2 .shopmen ul li {
+    font-size: 15px;
+  }
+  footer .get .gettext h6 {
+    font-size: 23px;
+    padding-top: 29px;
+  }
+  .login {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 20px 60px;
+    text-transform: capitalize;
+    box-shadow: -2px 3px 30px #74706b;
+  }
+  .touch .tect2 form input {
+    width: 48%;
+    padding: 15px 15px;
+    margin-right: 2px;
+  }
+  .touch .tect2 form .com {
+    padding: 15px 50px;
+  }
+  .touch .tect2 form textarea {
+    width: 98%;
+    padding: 15px 10px;
+  }
+  .cost .costtext2 .costimg img {
+    width: 50%;
+    margin: auto;
+  }
+  .card .lay a {
+    padding: 10px 15px;
+    font-size: 17px;
+    background-color: white;
+    margin: -3px;
+    transition: all 0.5s;
+    color: black;
+  }
+
+
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 992px) {
+  header .navbar .navbar-nav .nav-item {
+    margin-right: 10px;
+  }
+  header .navbar .navbar-nav .nav-item a {
+    font-size: 15px;
+  }
+  header .navbar .collapse .social .navbar-nav .nav-item span a {
+    font-size: 20px;
+    margin: 0 5px;
+  }
+  .home {
+    height: 700px;
+  }
+  .cost .costtext2 .costimg {
+    width: 100%;
+  }
+  .cost .costtext2 .text3 {
+    padding-top: 10px;
+  }
+  footer .media {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  footer .off2 .shopmen {
+    margin-left: 0px;
+  }
+  footer .off2 .shopmen h6 {
+    font-size: 18px;
+  }
+  footer .off2 .shopmen ul li {
+    font-size: 15px;
+  }
+  footer .get .gettext h6 {
+    font-size: 23px;
+    padding-top: 29px;
+  }
+  .login {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 20px 60px;
+    text-transform: capitalize;
+    box-shadow: -2px 3px 30px #74706b;
+  }
+  .touch .tect2 form input {
+    width: 48%;
+    padding: 15px 15px;
+    margin-right: 2px;
+  }
+  .touch .tect2 form .com {
+    padding: 15px 50px;
+  }
+  .touch .tect2 form textarea {
+    width: 98%;
+    padding: 15px 10px;
+  }
+  .cost .costtext2 .costimg img {
+    width: 50%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header .navbar .navbar-nav .nav-item {
+    margin-right: 10px;
+  }
+  header .navbar .navbar-nav .nav-item a {
+    font-size: 15px;
+  }
+  header .navbar .collapse .social .navbar-nav .nav-item span a {
+    font-size: 20px;
+    margin: 0 5px;
+  }
+  .home {
+    height: 500px;
+  }
+  .card2 {
+    margin-bottom: 20px;
+  }
+  .cost .costtext {
+    width: 100%;
+  }
+  .art table tbody tr td .number {
+    width: 40%;
+  }
+  .pact .search1 input {
+    width: 80%;
+  }
+  .pact .search1 input:focus {
+    outline: none;
+  }
+  .pact .search1 {
+    background-color: #fbf9ff;
+    padding: 15px 25px;
+    margin-bottom: 50px;
+  }
+  .pact .search1 .Search {
+    padding: 10px 30px;
+    background-color: #ff2020;
+    color: white;
+    border: 1px solid #ff2020;
+  }
+  .pact .btr a {
+    font-size: 15px;
+    padding: 10px 30px;
+  }
+
+  .cost .costtext2 .costimg {
+    width: 100%;
+  }
+  .cost .costtext2 .text3 {
+    padding-top: 10px;
+  }
+  footer .media {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  footer .off2 .shopmen {
+    margin-left: 0px;
+  }
+  footer .off2 .shopmen h6 {
+    font-size: 18px;
+  }
+  footer .off2 .shopmen ul li {
+    font-size: 15px;
+  }
+  .login {
+    width: 100%;
+    margin: auto;
+    background-color: white;
+    padding: 20px 60px;
+    text-transform: capitalize;
+    box-shadow: -2px 3px 30px #74706b;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .home2 .text1 p {
+    font-size: 14px;
+  }
+  .home2 .text1 a {
+    font-size: 14px;
+  }
+  .home .hometext h1 {
+    font-size: 35px;
+  }
+  .home .hometext p {
+    font-size: 16px;
+  }
+  .home {
+    height: 500px;
+  }
+  .items .itemstext h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .cost .costtext p {
+    font-size: 16px;
+    padding: 0px 0px;
+  }
+  .cost .costtext h2 {
+    padding-bottom: 30px;
+    padding-top: 20px;
+  }
+  .cost .costtext {
+    width: 60%;
+  }
+  .cost .costtext2 {
+    width: 50%;
+    text-align: center;
+  }
+  .cost .costtext2 .text3 {
+    text-align: center;
+    padding-top: 20px;
+  }
+  .cost .costtext2 {
+    width: 100%;
+  }
+  .cost .costtext2 .text3 h3 {
+    font-size: 16px;
+  }
+  .cost .costtext2 .text3 p {
+    font-size: 15px;
+  }
+  .fast .fastcard {
+    margin-bottom: 30px;
+  }
+  footer .enter input {
+    width: 100%;
+    padding: 15px 20px;
+  }
+  footer .enter .sub {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  footer .get .gettext {
+    text-align: center;
+  }
+  footer .row {
+    margin-right: 0;
+  }
+  .copy p {
+    font-size: 14px;
+  }
+  .card2 {
+    margin-bottom: 20px;
+  }
+  .cost .costtext2 {
+    text-align: end;
+  }
+  .cost .costtext2 .costimg img {
+    width: 30%;
+    margin: auto;
+  }
+  .cost .costtext {
+    width: 100%;
+  }
+  .art table tbody tr td .number {
+    width: 40%;
+  }
+  .cost .costtext2 .text3 {
+    padding-top: 10px;
+  }
+  footer .media {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  footer .off2 .shopmen {
+    margin-left: 4px;
+  }
+  footer .off2 .shopmen h6 {
+    font-size: 14px;
+  }
+  footer .off2 .shopmen ul li {
+    font-size: 15px;
+  }
+  .login {
+    width: 100%;
+    padding: 20px 10px;
+  }
+  .log .logtext h1 {
+    font-size: 33px;
+  }
+  .log .logtext p {
+    font-size: 13px;
+  }
+  .log .form-control {
+    padding: 14px 5px;
+    font-size: 13px;
+  }
+  .log form .sign {
+    padding-left: 5px;
+  }
+  .log form .sign .btn {
+    padding: 12px 25px;
+    margin-top: 20px;
+  }
+  .art {
+    margin-top: 60px;
+  }
+  .art table thead tr th {
+    font-size: 14px;
+  }
+  .art table tbody tr td {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 11px;
+  }
+  .art table tbody tr span {
+    margin-right: 0px;
+  }
+  .tot {
+    padding: 10px 10px;
+    font-size: 10px;
+  }
+  .art table tbody tr td .form-check {
+    font-size: 13px;
+    margin-top: 30px;
+    padding-right: 10px;
+  }
+  .art table tbody tr td .form-check .dropdown .btn {
+    width: 100%;
+    padding: 10px 10px;
+  }
+  .art table tbody tr td .form-check .take {
+    width: 100%;
+    padding: 10px 20px;
+  }
+  .art table tfoot tr td {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  .pro .card img {
+    padding: 0 10px;
+  }
+  .pro .card {
+    padding-left: 5px;
+  }
+  .pro .card-body3 {
+    padding-left: 15px;
+  }
+  .pro .card-body3 .card-title {
+    font-size: 30px;
+  }
+  .pro .card-body3 .card-text2 {
+    font-size: 20px;
+  }
+  .how1 .howtext {
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+  .how1 .howtext .nav-item .nav-link {
+    font-size: 14px;
+    padding-bottom: 0px;
+  }
+  .how1 .howtext .nav-item {
+    margin-top: 5px;
+  }
+  .how1 p {
+    font-size: 13px;
+  }
+  .here .order {
+    background-color: #f4f4f4;
+    padding: 0 10px;
+    width: 100%;
+  }
+  .here .order2 ul {
+    padding-top: 5px;
+    font-size: 10px;
+    width: 100%;
+  }
+  .pact .pactcall h3 {
+    font-size: 19px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    color: black;
+  }
+  .pact p {
+    font-size: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .tr a {
+    padding-left: 8px;
+    margin-right: 7px;
+    font-size: 12px;
+  }
+  .pact .pactbtn {
+    margin-left: 30px;
+    padding: 12px 0px;
+    margin-bottom: -16px;
+    font-size: 16px;
+  }
+  .pact .search1 input {
+    width: 65%;
+  }
+  .pact .search1 {
+    padding: 15px 5px;
+    margin-bottom: 20px;
+  }
+  .pact .search1 .Search {
+    padding: 10px 10px;
+  }
+  .pact .btr a {
+    font-size: 15px;
+    padding: 10px 30px;
+  }
+  .det {
+    margin-top: 20px;
+    padding: 20px 5px;
+  }
+  .det h5 {
+    padding-left: 30px;
+    font-size: 20px;
+  }
+  .det ul {
+    font-size: 15px;
+  }
+  .pact .post {
+    padding: 10px 5px;
+  }
+  .pact .post .postimg {
+    margin-bottom: 30px;
+    padding-right: 15px;
+  }
+  .pact .post h6 {
+    font-size: 20px;
+  }
+  .pact .post .post2 a {
+    font-size: 12px;
+    padding-right: 10px;
+    margin-left: 10px;
+  }
+  .pact .btr h6 {
+    font-size: 20px;
+  }
+  .pact .btr a {
+    font-size: 12px;
+    padding: 10px 10px;
+  }
+  .pact .psot {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0px 0px;
+    gap: 2px;
+  }
+  .pact .psot .postimg {
+    width: 30%;
+  }
+  .touch .tect2 form input {
+    width: 100%;
+    padding: 15px 15px;
+    margin-right: 2px;
+  }
+  .touch .tect2 form .com {
+    padding: 15px 50px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+  .touch .tect2 form textarea {
+    width: 100%;
+    padding: 15px 10px;
+  }
+}
